@@ -11,6 +11,10 @@
 - 修改自定义参数文件：`diy-part1.sh` ，`diy-part2.sh`
 
 
+## 开始创建任务编译 
+actions -> Build OpenWrt -> Run workflow -> True -> Run workflow
+
+
 ## 自动编译
 
 - 上传或更改 `.config` 配置文件，自动编译
@@ -18,7 +22,5 @@
 ## or SSH连接编译
 
 - SSH connection to Actions 复制SSH连接，黑屏按Ctrl + C，输入：cd openwrt && make menuconfig
-
-
 
 
